@@ -333,6 +333,10 @@ nav .menu .menu_icon:hover .icon:after {
   left: 20% !important;
   min-width: 400px;
   min-height: 400px;
+  background: linear-gradient(90deg,#00d0ff,#df00ab);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .wrapper .container .one .content,
 .wrapper .container .two .content,
@@ -404,15 +408,15 @@ nav .menu .menu_icon:hover .icon:after {
     min-height: 280px;
     width: 60%;
     height: 60%;
-    top: 20% !important;
+    top: 40% !important;
     left: 20% !important;
   }
 }
 .wrapper .container .text {
-  width: 60%;
-  height: 40%;
-  min-width: 400px;
-  min-height: 500px;
+  width: 80%;
+  height: 50%;
+  min-width: 600px;
+  min-height: 600px;
   position: absolute;
   margin: 40px 0;
   animation: text 0.6s 1.8s ease backwards;
