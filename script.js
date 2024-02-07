@@ -6,3 +6,7 @@ const btn = document.getElementById("back");
 btn.addEventListener('click',()=>{
         history.back();
 })
+
+document.addEventListener('contextmenu', function (event){
+        event.preventDefault();
+})
